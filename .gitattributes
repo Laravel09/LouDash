@@ -1,0 +1,5 @@
+# LouDash asset storage policy
+# Current runtime assets (36 WebP images and 17 MP3 audio files) are stored
+# directly in Git. They are small enough for normal GitHub repository storage.
+# Do not add Git LFS filter rules for *.webp or *.mp3 unless the project
+# intentionally migrates back to Git LFS and uploads every referenced object.
